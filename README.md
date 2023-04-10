@@ -27,4 +27,6 @@
 
 其中，这些API接口包含了一些关于漏洞扫描、统计数据、资产搜索等方面的操作。可以根据实际需求选择相应的API接口进行调用。
 
-更多详情和调用方法访问：https://www.exp-9.com
+更多详情和调用方法访问：http://www.exp-9.com/category-20.html
+
+安装方法：pip install goby-sdk
