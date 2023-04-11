@@ -1,32 +1,44 @@
-# API接口列表
+# GOBY SDK for Python
+
+GOBY SDK for Python是一个非官方版本的GOBY SDK，基于 goby-x64-2.4.5-Community 进行开发。
+
+该SDK旨在解决企业系统快速集成GOBY扫描引擎的问题。
+
+详细SDK文档请访问： <https://www.exp-9.com/category-20.html> 或 <https://github.com/siberiah0h/goby_sdk_for_python>。
+
+## API接口列表
 
 以下是一些API接口及其含义的列表：
 
-1.  get\_poc\_list funtion: 获取POC列表
-2.  start\_scan funtion: 开始扫描
-3.  resume\_scan funtion: 恢复扫描
-4.  stop\_scan funtion: 停止扫描
-5.  get\_scan\_progress funtion: 获取扫描进度
-6.  get\_tasks funtion: 获取任务
-7.  get\_statistics data funtion: 获取统计数据
-8.  asset\_search funtion: 资产搜索
-9.  get\_value\_category funtion: 获取值分类
-10. getchildrencategory funtion: 获取子分类
-11. get\_ip\_info funtion: 获取IP信息
-12. get\_web\_list funtion: 获取Web列表
-13. get\_pocs\_funtion: 获取POCS
-14. get\_failed\_pocs funtion: 获取失败的POCS
-15. get\_vuin\_statistics funtion: 获取漏洞统计信息
-16. get\_vulnerability\_search funtion: 获取漏洞搜索结果
-17. get\_poc\_info funtion: 获取POC信息
-18. get\_ip\_segment funtion: 获取IP段
-19. get\_vulanalysis funtion: 获取漏洞分析结果
-20. get\_asset\_tags funtion: 获取资产标签
-21. get\_env\_info funtion: 获取环境信息
-22. set\_envinfo funtion: 设置环境信息
+*   `get_poc_list` 函数：获取POC列表
+*   `start_scan` 函数：开始扫描
+*   `resume_scan` 函数：恢复扫描
+*   `stop_scan` 函数：停止扫描
+*   `get_scan_progress` 函数：获取扫描进度
+*   `get_tasks` 函数：获取任务
+*   `get_statistics_data` 函数：获取统计数据
+*   `asset_search` 函数：资产搜索
+*   `get_value_category` 函数：获取值分类
+*   `get_children_category` 函数：获取子分类
+*   `get_ip_info` 函数：获取IP信息
+*   `get_web_list` 函数：获取Web列表
+*   `get_pocs` 函数：获取POCS
+*   `get_failed_pocs` 函数：获取失败的POCS
+*   `get_vuin_statistics` 函数：获取漏洞统计信息
+*   `get_vulnerability_search` 函数：获取漏洞搜索结果
+*   `get_poc_info` 函数：获取POC信息
+*   `get_ip_segment` 函数：获取IP段
+*   `get_vulanalysis` 函数：获取漏洞分析结果
+*   `get_asset_tags` 函数：获取资产标签
+*   `get_env_info` 函数：获取环境信息
+*   `set_envinfo` 函数：设置环境信息
 
-其中，这些API接口包含了一些关于漏洞扫描、统计数据、资产搜索等方面的操作。可以根据实际需求选择相应的API接口进行调用。
+这些API接口涵盖了漏洞扫描、统计数据、资产搜索等多方面的操作。用户可以根据实际需求选择相应的API接口进行调用。
 
-更多详情和调用方法访问：http://www.exp-9.com/category-20.html
+更多详情和调用方法请访问 <https://www.exp-9.com/category-20.html>。
 
-安装方法：pip install goby-sdk
+## 安装方法
+
+使用以下命令安装GOBY SDK for Python：
+
+`pip install goby-sdk`
